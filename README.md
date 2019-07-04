@@ -5,6 +5,7 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 
 ##### Collect Roms
 * You will need to supply your own game (rom) files for the system. You can find these online from various sources.
+* Unzip RetroPie.zip to create a directory structure.
 * Copy your roms to the relevant system's folder in the contained `/RetroPie/roms` directory.
 * If you are using Gameboy Advance roms, you must search for a 'gba bios' and copy `gba_bios.bin` into the `/RetroPie/BIOS` folder.
     ###### Note:
