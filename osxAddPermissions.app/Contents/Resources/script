@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd ../../../
+
+chmod 700 CopyRoms.command
+chmod 700 EnableBluetooth.command
+chmod 700 DisableBluetooth.command
