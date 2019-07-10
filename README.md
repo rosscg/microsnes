@@ -25,13 +25,11 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 
   ###### Windows:
   * Unzip the `cygwin64` folder.
-  * Inside the `cygwin64` folder, run the app Cygwin.
-  * Drag the `CopyRoms.command` into the second of the new windows (the top one) and press enter.
-  * Enter the password `microsnes` when prompted.
+  * Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted.
 
   ###### Linux:
   * Open a terminal window and navigate to this folder.
-  * Run the command: `rsync -r --exclude=.DS_Store ./RetroPie/ gamer@192.168.4.1:RetroPie/` and enter the password `microsnes`.
+  * Run the command: `rsync -r --exclude=.DS_Store --exclude=__MACOSX ./RetroPie/ gamer@192.168.4.1:RetroPie/` and enter the password `microsnes`.
 
   ###### SFTP client:
   * Use an SFTP client (e.g. [Cyberduck](https://cyberduck.io)) with the address: `sftp://192.168.4.1`
@@ -40,7 +38,7 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 
 
 ##### Enabling Bluetooth
-If you plan to use bluetooth to connect to a second player controller, run the `EnableBluetooth.command` in the same way as the `CopyRoms.command` when you're connected to the emulator's wifi network (having BT enabled slightly increases boot time).
+If you plan to use bluetooth to connect to a second player controller, run the `EnableBluetooth.command` or `EnableBluetoothWindows.bat` when you're connected to the emulator's wifi network (having BT enabled slightly increases boot time).
 
 
 ### Using the System
