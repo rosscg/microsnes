@@ -10,7 +10,7 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
     ###### Note:
     * The folders in `/RetroPie/roms` represent which systems the emulator should be able to play, though not all have been tested.
     * The system has been tested with many classic Nintendo roms, but the quality of roms can vary so they may not all work.
-    * [SNES games](https://en.wikipedia.org/wiki/Super_FX#List_of_games) which used the Super-FX chip may run poorly.
+    * SNES games which used the [Super-FX chip](https://en.wikipedia.org/wiki/Super_FX#List_of_games) may run poorly.
 
 
 #### Copy Files to Emulator
@@ -19,11 +19,11 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 3. Follow the steps below based on your operating system:
 
     ##### Mac OSX:
-    1. Open `osxAddPermissions.app` (you may need to right-click and select open, if it gives the 'unidentified developer' error).
+    1. Open `osxAddPermissions.app` (right-click and select open if it gives the 'unidentified developer' error).
     2. Open `CopyRoms.command` and enter the password `microsnes` when prompted.
 
     ##### Windows:
-    1. Unzip the `cygwin64` folder.
+    1. Unzip the `cygwin64` folder into the same directory.
     2. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted.
 
     ##### Linux:
