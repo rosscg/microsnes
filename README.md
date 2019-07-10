@@ -1,6 +1,6 @@
 
 #### Setting Up the System
-The emulator connects to the display by HDMI. The USB plug powers the system, so this can either be plugging into the TV's USB port, or if this is not available: a battery bank, computer, or phone charger USB port will work.
+The emulator connects to the display by HDMI. The USB plug powers the system, so this can either be plugged into the TV's USB port, or if this is not available: a battery bank, computer, or phone charger USB port will work.
 
 
 ##### Collect Roms

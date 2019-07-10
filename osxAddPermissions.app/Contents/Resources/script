@@ -2,6 +2,6 @@
 
 cd ../../../
 
-chmod 700 CopyRoms.command
-chmod 700 EnableBluetooth.command
-chmod 700 DisableBluetooth.command
+chmod 777 CopyRoms.command
+chmod 777 EnableBluetooth.command
+chmod 777 DisableBluetooth.command
