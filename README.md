@@ -26,7 +26,7 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
   ###### Windows:
   * Unzip the `cygwin64` folder.
   * Inside the `cygwin64` folder, run the app Cygwin.
-  * Drag the `CopyRoms.command` into the smaller of the new windows and press enter.
+  * Drag the `CopyRoms.command` into the second of the new windows (the top one) and press enter.
   * Enter the password `microsnes` when prompted.
 
   ###### Linux:
