@@ -4,9 +4,9 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 
 
 ##### Collect Roms
-* You will need to supply your own game (rom) files for the system. You can find these online from various sources.
-* Copy your roms to the relevant system's folder in the contained `/RetroPie/roms` directory.
-* If you are using Gameboy Advance roms, you must search for a 'gba bios' and copy `gba_bios.bin` into the `/RetroPie/BIOS` folder.
+1. You will need to supply your own game (rom) files for the system. You can find these online from various sources.
+2. Copy your roms to the relevant system's folder in the contained `/RetroPie/roms` directory.
+3. If you are using Gameboy Advance roms, you must search for a 'gba bios' and copy `gba_bios.bin` into the `/RetroPie/BIOS` folder.
     ###### Note:
     * The folders in `/RetroPie/roms` represent which systems the emulator should be able to play, though not all have been tested.
     * The system has been tested with many classic Nintendo roms, but the quality of roms can vary so they may not all work.
@@ -14,24 +14,24 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 
 
 ##### Copy Files to Emulator
-* Plug the controller into a power source with the USB plug and give it a moment to boot.
-* On your computer, connect to the Pi's wifi network: `MicroSNES.com` with the password: `microsnes`
-* Follow the steps below based on your operating system:
+1. Plug the controller into a power source with the USB plug and give it a moment to boot.
+2. On your computer, connect to the Pi's wifi network: `MicroSNES.com` with the password: `microsnes`
+3. Follow the steps below based on your operating system:
 
   ###### Mac OSX:
-  * Open `osxAddPermissions.app` (you may need to right-click and select open, if it gives the 'unidentified developer' error).
-  * Open `CopyRoms.command` and enter the password `microsnes` when prompted.
+  1. Open `osxAddPermissions.app` (you may need to right-click and select open, if it gives the 'unidentified developer' error).
+  2. Open `CopyRoms.command` and enter the password `microsnes` when prompted.
 
   ###### Windows:
-  * Unzip the `cygwin64` folder.
-  * Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted.
+  1. Unzip the `cygwin64` folder.
+  2. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted.
 
   ###### Linux:
-  * Open a terminal window and navigate to this folder.
-  * Run the command: `rsync -r --exclude=.DS_Store --exclude=__MACOSX ./RetroPie/ gamer@192.168.4.1:RetroPie/` and enter the password `microsnes`.
+  1. Open a terminal window and navigate to this folder.
+  2. Run the command: `rsync -r --exclude=.DS_Store --exclude=__MACOSX ./RetroPie/ gamer@192.168.4.1:RetroPie/` and enter the password `microsnes`.
 
   ###### SFTP client:
-  * Use an SFTP client (e.g. [Cyberduck](https://cyberduck.io)) with the address: `sftp://192.168.4.1`
+  1. Use an SFTP client (e.g. [Cyberduck](https://cyberduck.io)) with the address: `sftp://192.168.4.1`
     * Username: `gamer`
     * Password: `microsnes`
 
