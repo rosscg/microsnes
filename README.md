@@ -1,5 +1,5 @@
 
-### Setting Up the System
+## MicroSNES Setup
 The emulator connects to the display by HDMI. The USB plug powers the system, so this can either be plugged into the TV's USB port, or if this is not available: a battery bank, computer, or phone charger USB port will work.
 
 
@@ -20,20 +20,22 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 
     ##### Mac OSX:
     1. Open `osxAddPermissions.app` (right-click and select open if it gives the 'unidentified developer' error).
-    2. Open `CopyRoms.command` and enter the password `microsnes` when prompted.
+    2. Open `CopyRoms.command` and enter the password `microsnes` when prompted (you will be prompted twice).
 
     ##### Windows:
     1. Unzip the `cygwin64` folder into the same directory.
-    2. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted.
+    2. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted (you will be prompted twice).
 
     ##### Linux:
     1. Open a terminal window and navigate to this folder.
-    2. Run the command: `rsync -r --exclude=.DS_Store --exclude=__MACOSX ./RetroPie/ gamer@192.168.4.1:RetroPie/` and enter the password `microsnes`.
+    2. Run the command: `rsync -rPz --exclude=.DS_Store --exclude=__MACOSX ./RetroPie/ gamer@192.168.4.1:RetroPie2/` and enter the password `microsnes`.
+    3. Run the command: `ssh gamer@192.168.4.1 'mv RetroPie2 RetroPie'` and enter the password `microsnes`.
 
     ##### SFTP client:
     1. Use an SFTP client (e.g. [Cyberduck](https://cyberduck.io)) with the address: `sftp://192.168.4.1`
           * Username: `gamer`
           * Password: `microsnes`
+    2. Copy the `RetroPie` folder into the `/home/gamer/` directory on the remote machine.
 
 
 #### Enabling Bluetooth
