@@ -20,11 +20,11 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
 
     ##### Mac OSX:
     1. Open `osxAddPermissions.app` (right-click and select open if it gives the 'unidentified developer' error).
-    2. Open `CopyRoms.command` and enter the password `microsnes` when prompted (you will be prompted twice).
+    2. Open `CopyRoms.command` and enter the password `microsnes` when prompted (you will be prompted thrice).
 
     ##### Windows:
     1. Unzip the `cygwin64` folder into the same directory.
-    2. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted (you will be prompted twice).
+    2. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted (you will be prompted thrice).
 
     ##### Linux:
     1. Open a terminal window and navigate to this folder.
