@@ -1,0 +1,375 @@
+2019/06/20 16:25:53 Starting cygwin install, version 2.897
+2019/06/20 16:25:53 User has backup/restore rights
+2019/06/20 16:25:53 Current Directory: C:\Users\Ross\Desktop\User Setup Folder
+2019/06/20 16:25:53 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/06/20 16:25:57 source: from local dir
+2019/06/20 16:25:59 root: C:\cygwin64 system
+2019/06/20 16:26:00 Selected local directory: C:\Users\Ross\Desktop\User Setup Folder
+Found ini file - C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/setup.ini
+.ini setup_version is 2.897, our setup_version is 2.897
+INSTALLED.DB version 3
+2019/06/20 16:26:03 solving: 0 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0
+libsolv: number of solvables: 48955, memory used: 2677 K
+libsolv: number of ids: 26164 + 48881
+libsolv: string memory used: 102 K array + 448 K data,  rel memory used: 572 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 84
+libsolv: provide space needed: 245 + 97762
+libsolv: shrunk whatprovidesdata from 245 to 245
+libsolv: shrunk whatprovidesauxdata from 245 to 158
+libsolv: whatprovides memory used: 297 K id array, 382 K data
+libsolv: whatprovidesaux memory used: 102 K id array, 0 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 1 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 469 pkg rules for installed solvables
+libsolv: added 5 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 148 of 158 installable solvables considered for solving
+libsolv: pruned rules from 475 to 475
+libsolv:   binary: 73
+libsolv:   normal: 401, 802 literals
+libsolv: pkg rule memory used: 11 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 474 pkg rules, 2 * 74 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 14 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 1 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 3 ms
+libsolv: 
+libsolv: transaction:
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 0
+2019/06/20 16:26:48 solving: 2 tasks, update: no, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 40 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 158 of 158 installable solvables considered for solving
+libsolv: pruned rules from 515 to 515
+libsolv:   binary: 87
+libsolv:   normal: 427, 854 literals
+libsolv: pkg rule memory used: 12 K
+libsolv: pkg rule creation took 1 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 514 pkg rules, 2 * 74 update rules, 3 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 15 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 2 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   erase     autossh-1.4g-1.any
+libsolv: 
+libsolv:   install   openssh-8.0p1-2.any
+libsolv: 
+libsolv:   install   csih-0.9.11-1.any
+libsolv: 
+libsolv:   install   cygrunsrv-1.62-1.any
+libsolv: 
+libsolv:   install   libcrypt2-4.4.4-1.any
+libsolv: 
+libsolv:   install   libedit0-20130712-1.any
+libsolv: 
+libsolv:   install   libgssapi_krb5_2-1.15.2-2.any
+libsolv: 
+libsolv:   install   libkrb5_3-1.15.2-2.any
+libsolv: 
+libsolv:   install   libcom_err2-1.44.5-1.any
+libsolv: 
+libsolv:   install   libk5crypto3-1.15.2-2.any
+libsolv: 
+libsolv:   install   libkrb5support0-1.15.2-2.any
+libsolv: 
+libsolv: 
+libsolv: removing conflict for package autossh-1.4g-1.any[48884]
+libsolv: removing conflict for package autossh-1.4g-1.any[715]
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 11
+libsolv: edges: 14, edge space: 16
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 0
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 27
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 10 installed packages:
+libsolv:   - csih-0.9.11-1.any
+libsolv:   - cygrunsrv-1.62-1.any
+libsolv:   - libcom_err2-1.44.5-1.any
+libsolv:   - libcrypt2-4.4.4-1.any
+libsolv:   - libedit0-20130712-1.any
+libsolv:   - libgssapi_krb5_2-1.15.2-2.any
+libsolv:   - libk5crypto3-1.15.2-2.any
+libsolv:   - libkrb5_3-1.15.2-2.any
+libsolv:   - libkrb5support0-1.15.2-2.any
+libsolv:   - openssh-8.0p1-2.any
+libsolv: 
+libsolv: 1 erased packages:
+libsolv:   - autossh-1.4g-1.any
+libsolv: 
+2019/06/20 16:26:48 Augmented Transaction List:
+2019/06/20 16:26:48    0   erase                                         autossh              1.4g-1
+2019/06/20 16:26:48    1 install                                            csih            0.9.11-1
+2019/06/20 16:26:48    2 install                                       cygrunsrv              1.62-1
+2019/06/20 16:26:48    3 install                                       libcrypt2             4.4.4-1
+2019/06/20 16:26:48    4 install                                        libedit0          20130712-1
+2019/06/20 16:26:48    5 install                                     libcom_err2            1.44.5-1
+2019/06/20 16:26:48    6 install                                 libkrb5support0            1.15.2-2
+2019/06/20 16:26:48    7 install                                    libk5crypto3            1.15.2-2
+2019/06/20 16:26:48    8 install                                       libkrb5_3            1.15.2-2
+2019/06/20 16:26:48    9 install                                libgssapi_krb5_2            1.15.2-2
+2019/06/20 16:26:48   10 install                                         openssh             8.0p1-2
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/csih/csih-0.9.11-1.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/csih/csih-0.9.11-1.tar.xz 5082b36031c542e4f6941e6cbaa0cf70a0cc812d43da9a410aba986812f4b8ea27c135febacfe2fe2259c1797eaa9722b23efd6b59085f431eb7c9674b2b3271
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz 774b272d99dfb10ae610b08849ef7117fcb5e18e37c3da1a626fec0453393898c0fb2cf456f47daf295d4f4588e14e10d7f7ccb2761e93695fb051a78ecaf69d
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.4-1.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.4-1.tar.xz 463658e9b056873eb863c284f6bcf0bbf5aa2fa00dba916821f5d5597c192dbe61efd6cd018b7232adf834f755063f53847d700b70f08a5a425d3d2ff9caefcc
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz 8bbfb6d4c2d30999d743d556ce8b4e1ca7513ad0c9362acf20f090f159917487ad0847c2009a4fc16bb4a29ba217ea1f454ba8d713dd2ab2c70c25da7b64343e
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz 3344fbc09364d789e92a81af5ba1e830dd47cef3392a1ee389a2fd49a9cc56a63afc78bebefb92c025d8222e6e454c114d572f0f395e5e20ede2b2266b0fe709
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz 93162fc8430153b054c77c1dea7d9df6be8422922a9ee6fd923b46797c466200d78e80cb4e17387dd18ed1631a7828a57169fdc743c7b2a7a270259aa586113d
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz 249808d087f1a1ac7a5b117aaf499e173c9e404b224b9d9ff5a5fa1d2ace8b7c1185100bfa33174a82cbc250f376671d48b7d93d11924b5c4b524897841e2967
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz 639bb23f5bafc62fe6d36d44f1786445b949db5547dee66c73ec75c5d1d9d3444b8f326ffae811fb18fed3e85fead713362cf2c2488f880d3f5bc8ea087cee64
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz 0b9922b28f24f260bccb179c52354377173c1f0243420fb655154b4bd6da99af33b17c172dc46344d9fb38756abb0d8d449d5c7fba7f179dda7a3337c330224f
+Checking SHA512 for file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/openssh/openssh-8.0p1-2.tar.xz
+SHA512 verified OK: file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/openssh/openssh-8.0p1-2.tar.xz 4252caf9363b211eb77d720a01b3f81fba2635821ee128466b402bdd2c24883f6720c90a702729002eabae08d00288aec483187f1f9c3165a41a8682e4207548
+Running preremove script for autossh
+2019/06/20 16:26:52 Uninstalling autossh
+unlink C:\cygwin64\bin/autossh.exe
+unlink C:\cygwin64/usr/share/doc/autossh/CHANGES
+unlink C:\cygwin64/usr/share/doc/autossh/COPYING
+unlink C:\cygwin64/usr/share/doc/autossh/examples/autossh.host
+unlink C:\cygwin64/usr/share/doc/autossh/examples/rscreen
+unlink C:\cygwin64/usr/share/doc/autossh/README
+unlink C:\cygwin64/usr/share/doc/autossh/README.Cygwin
+unlink C:\cygwin64/usr/share/doc/Cygwin/autossh.README
+unlink C:\cygwin64/usr/share/man/man1/autossh.1.gz
+rmdir C:\cygwin64/usr/share/doc/autossh/examples
+rmdir C:\cygwin64/usr/share/doc/autossh
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/csih/csih-0.9.11-1.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/csih/
+Installing file cygfile:///usr/share/csih/cygwin-service-installation-helper.sh
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/csih/
+Installing file cygfile:///usr/share/doc/csih/AUTHORS
+Installing file cygfile:///usr/share/doc/csih/ChangeLog
+Installing file cygfile:///usr/share/doc/csih/COPYING
+Installing file cygfile:///usr/share/doc/csih/COPYING.LGPLv2.1
+Installing file cygfile:///usr/share/doc/csih/NEWS
+Installing file cygfile:///usr/share/doc/csih/TODO
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/lib/csih/
+Installing file cygfile:///usr/lib/csih/getAccountName.exe
+Installing file cygfile:///usr/lib/csih/winProductName.exe
+Installing file cygfile:///usr/lib/csih/getVolInfo.exe
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+Installing file cygfile:///bin/
+Installing file cygfile:///bin/cygrunsrv.exe
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/cygrunsrv.README
+Installing file cygfile:///usr/share/doc/cygrunsrv/
+Installing file cygfile:///usr/share/doc/cygrunsrv/ChangeLog
+Installing file cygfile:///usr/share/doc/cygrunsrv/COPYING
+Installing file cygfile:///usr/share/doc/cygrunsrv/TODO
+Installing file cygfile:///usr/lib/
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.4-1.tar.xz
+Installing file cygfile:///usr/bin/cygcrypt-2.dll
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/libxcrypt/
+Installing file cygfile:///usr/share/doc/libxcrypt/AUTHORS
+Installing file cygfile:///usr/share/doc/libxcrypt/ChangeLog
+Installing file cygfile:///usr/share/doc/libxcrypt/COPYING.LIB
+Installing file cygfile:///usr/share/doc/libxcrypt/NEWS
+Installing file cygfile:///usr/share/doc/libxcrypt/README
+Installing file cygfile:///usr/share/doc/libxcrypt/THANKS
+Installing file cygfile:///usr/share/doc/libxcrypt/TODO
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/cygedit-0.dll
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/libedit/
+Installing file cygfile:///usr/share/doc/libedit/THANKS
+Installing file cygfile:///usr/share/doc/libedit/COPYING
+Installing file cygfile:///usr/share/doc/libedit/ChangeLog
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/editrc.5.gz
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+Installing file cygfile:///usr/bin/cygcom_err-2.dll
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cygkrb5support-0.dll
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cygk5crypto-3.dll
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cygkrb5-3.dll
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cyggssapi_krb5-2.dll
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2019/06/20 16:26:52 Extracting from file://C:\Users\Ross\Desktop\User Setup Folder/cyg/x86_64/release/openssh/openssh-8.0p1-2.tar.xz
+Installing file cygfile:///etc/
+Installing file cygfile:///etc/moduli
+Installing file cygfile:///etc/defaults/
+Installing file cygfile:///etc/defaults/etc/
+Installing file cygfile:///etc/defaults/etc/ssh_config
+Installing file cygfile:///etc/defaults/etc/sshd_config
+Installing file cygfile:///etc/defaults/etc/inetd.d/
+Installing file cygfile:///etc/defaults/etc/inetd.d/sshd-inetd
+Installing file cygfile:///etc/postinstall/
+Installing file cygfile:///etc/postinstall/openssh.sh
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/slogin
+io_stream::mklink (cygfile:///usr/bin/slogin->cygfile://./ssh.exe)
+Installing file cygfile:///usr/bin/ssh-host-config
+Installing file cygfile:///usr/bin/ssh-user-config
+Installing file cygfile:///usr/bin/ssh-copy-id
+Installing file cygfile:///usr/bin/ssh.exe
+Installing file cygfile:///usr/bin/scp.exe
+Installing file cygfile:///usr/bin/ssh-add.exe
+Installing file cygfile:///usr/bin/ssh-agent.exe
+Installing file cygfile:///usr/bin/ssh-keygen.exe
+Installing file cygfile:///usr/bin/ssh-keyscan.exe
+Installing file cygfile:///usr/bin/sftp.exe
+Installing file cygfile:///usr/sbin/
+Installing file cygfile:///usr/sbin/sshd.exe
+Installing file cygfile:///usr/sbin/ssh-keysign.exe
+Installing file cygfile:///usr/sbin/ssh-pkcs11-helper.exe
+Installing file cygfile:///usr/sbin/sftp-server.exe
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/scp.1.gz
+Installing file cygfile:///usr/share/man/man1/sftp.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-add.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-agent.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-copy-id.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-keygen.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-keyscan.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh.1.gz
+Installing file cygfile:///usr/share/man/man1/slogin.1.gz
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/moduli.5.gz
+Installing file cygfile:///usr/share/man/man5/ssh_config.5.gz
+Installing file cygfile:///usr/share/man/man5/sshd_config.5.gz
+Installing file cygfile:///usr/share/man/man8/
+Installing file cygfile:///usr/share/man/man8/sftp-server.8.gz
+Installing file cygfile:///usr/share/man/man8/ssh-keysign.8.gz
+Installing file cygfile:///usr/share/man/man8/ssh-pkcs11-helper.8.gz
+Installing file cygfile:///usr/share/man/man8/sshd.8.gz
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/openssh/
+Installing file cygfile:///usr/share/doc/openssh/CREDITS
+Installing file cygfile:///usr/share/doc/openssh/ChangeLog
+Installing file cygfile:///usr/share/doc/openssh/LICENCE
+Installing file cygfile:///usr/share/doc/openssh/OVERVIEW
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.agent
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.certkeys
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.mux
+Installing file cygfile:///usr/share/doc/openssh/README
+Installing file cygfile:///usr/share/doc/openssh/README.dns
+Installing file cygfile:///usr/share/doc/openssh/README.platform
+Installing file cygfile:///usr/share/doc/openssh/README.privsep
+Installing file cygfile:///usr/share/doc/openssh/README.tun
+Installing file cygfile:///usr/share/doc/openssh/TODO
+Installing file cygfile:///usr/share/doc/openssh/README.md
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/openssh.README
+Installing file cygfile:///usr/lib/
+2019/06/20 16:26:52 Changing gid back to original
+Visited: 82 nodes out of 83 while creating dependency order.
+Dependency order of packages: cygwin dash _autorebase libiconv2 libintl8 alternatives base-cygwin libattr1 libgmp10 tzdata terminfo libncursesw10 libreadline7 tzcode coreutils bash findutils sed base-files libbz2_1 bzip2 libffi6 libgcc1 libp11-kit0 p11-kit libtasn1_6 p11-kit-trust ca-certificates crypto-policies libsigsegv2 diffutils editrights libmpfr6 gawk libpcre1 grep csih cygrunsrv libpopt-common libpopt0 cygutils zlib0 file libargp getent libstdc++6 groff gzip hostname info ipc-utils less libuuid1 libblkid1 libcom_err2 libcrypt2 libedit0 libfdisk1 libgdbm4 libgssapi_krb5_2 libiconv libk5crypto3 libkrb5_3 libkrb5support0 liblzma5 libpipeline1 libsmartcols1 libssl1.1 login util-linux man-db mintty ncurses openssh openssl rebase rsync run xz tar vim-minimal which 
+2019/06/20 16:26:52 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+cat: '/var/lib/rebase/dynpath.d/*': No such file or directory
+Updating package information in /var/cache/rebase/rebase_pkg.
+	from /etc/setup/csih.lst.gz...
+	from /etc/setup/cygrunsrv.lst.gz...
+	from /etc/setup/libcom_err2.lst.gz...
+	from /etc/setup/libcrypt2.lst.gz...
+	from /etc/setup/libedit0.lst.gz...
+	from /etc/setup/libgssapi_krb5_2.lst.gz...
+	from /etc/setup/libk5crypto3.lst.gz...
+	from /etc/setup/libkrb5support0.lst.gz...
+	from /etc/setup/libkrb5_3.lst.gz...
+	from /etc/setup/openssh.lst.gz...
+Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
+Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
+removing /var/cache/rebase/rebase_dyn
+creating empty /var/cache/rebase/rebase_dyn
+Updating rebase information for user-defined dynamic objects /var/cache/rebase/rebase_user.
+Updating rebase information for user-defined executables /var/cache/rebase/rebase_user_exe.
+Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_lst /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_user.
+2019/06/20 16:26:58 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/06/20 16:26:59 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2019/06/20 16:26:59 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/06/20 16:26:59 Changing gid to Administrators
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+Desktop directory for desktop link: C:\Users\Public\Desktop
+2019/06/20 16:27:01 note: Installation Complete
+2019/06/20 16:27:01 Ending cygwin install

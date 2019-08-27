@@ -23,8 +23,7 @@ The emulator connects to the display by HDMI. The USB plug powers the system, so
     2. Open `CopyRoms.command` and enter the password `microsnes` when prompted (you will be prompted thrice).
 
     ##### Windows:
-    1. Unzip the `cygwin64` folder into the same directory (so the contents will be in the folder: `/microsnes/cygwin64/`).
-    2. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted (you will be prompted thrice).
+    1. Open `CopyRomsWindows.bat` and enter the password `microsnes` when prompted (you will be prompted thrice).
 
     ##### Linux:
     1. Open a terminal window and navigate to this folder.
